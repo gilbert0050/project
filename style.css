@@ -1,0 +1,564 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.card-des
+    {
+        justify-content: space-between;
+    }
+.btn-pro button
+{
+        font-size: 24px;
+        font-weight: 500;
+}
+    .btn-pro .btn
+{
+        width: 100%;
+}
+.h2-mktg
+{
+    font-size: 60px;
+    line-height: 65px;
+    font-weight: 800;
+    letter-spacing: 0.3%;
+}
+.firstP
+{
+    font-weight: 600;
+    letter-spacing: 0.3%;
+    line-height: 32px;
+    font-size: 24px;
+    text-align: left;
+}
+.svg-path
+{
+    width: 100%;
+    height: 50px;
+    background: #A0D3EF;
+}
+.services
+    {
+        background: #A0D3EF;
+    }
+@media only screen and (min-width: 576px)
+{
+    .svg-path
+    {
+        width: 100%;
+        background: #A0D3EF;
+        height: 20px;
+    } 
+    .svg-path p
+    {
+        font-size: 20px;
+    }
+    .header-text
+    {
+        font-weight: 600;
+        letter-spacing: 0.3%;
+        font-size: 32px;
+    }
+    .h2-mktg
+    {
+        text-align: center;
+        font-size: 45px;
+        line-height: 40px;
+        font-weight: 800;
+    }
+    .container .container-des
+    {
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    content: '';
+    top: 14%;
+    left: 5%;
+    z-index: -1;
+    }
+    .firstP
+    {
+        font-weight: 600;
+        letter-spacing: 0.3%;
+        line-height: 32px;
+        font-size: 16px;
+        text-align: center;
+    }
+    .btn-pro
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .service-text
+    {
+        font-size: 45px;
+        font-weight: 800;
+        position: relative;
+        top: -100px;
+    }
+    .service-paragraph
+    {
+        font-size: 24px;
+        font-weight: 500;
+        position: relative;
+        top: -110px;  
+    }
+    .btn-pro .btn
+    {
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .btn-pro .btn
+    {
+        width: 100%;
+    }
+    .card-des
+    {
+        justify-content: center;
+    }
+    .card-des .card-content
+    {
+        max-width: 25rem;
+        height: 18rem;
+    }
+    .services
+    {
+        background: #A0D3EF;
+    }
+    .cat img
+    {
+        width: 80px;
+        height: 80px;
+        position: relative;
+        top: 12px;
+        left: 5px;
+    }
+    .ptf-text h1
+    {
+        font-size: 24px;
+        padding-top: 50px;
+        margin-top: 10%;
+        line-height: 1em;
+        font-weight: 800;
+        letter-spacing: 0.3%;
+        color: #737373;
+    }
+    .ptf-text h5
+    {
+        font-size: 30px;
+        padding-top: 0px;
+        line-height: 1em;
+        font-weight: 800;
+        letter-spacing: 0.3%;
+        color: #A0D3EF;
+    }
+    .ptf-text h6
+    {
+        font-size: 20px;
+        padding-top: 0px;
+        line-height: 1em;
+        font-weight: 800;
+        letter-spacing: 0.3%;
+        color: #737373;
+    }
+    .ptf-text span
+    {
+        font-size: 16px;
+        padding-top: 0px;
+        line-height: 1em;
+        font-weight: 400;
+        color: #737373;
+    }
+}
+@media only screen and (min-width: 716px)
+{
+    .svg-path
+    {
+        width: 100%;
+        background: #A0D3EF;
+        height: 20px;
+    } 
+    .svg-path p
+    {
+        font-size: 20px;
+    }
+    .header-text
+    {
+        font-weight: 600;
+        letter-spacing: 0.3%;
+        font-size: 32px;
+    }
+    .h2-mktg
+    {
+        text-align: center;
+        font-size: 45px;
+        line-height: 40px;
+        font-weight: 800;
+    }
+    .container .container-des
+    {
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    content: '';
+    top: 15%;
+    left: 5%;
+    z-index: -1;
+    }
+    .firstP
+    {
+        font-weight: 600;
+        letter-spacing: 0.3%;
+        line-height: 32px;
+        font-size: 16px;
+        text-align: center;
+    }
+    .btn-pro
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .service-text
+    {
+        font-size: 45px;
+        font-weight: 800;
+        position: relative;
+        top: -100px;
+    }
+    .service-paragraph
+    {
+        font-size: 24px;
+        font-weight: 500;
+        position: relative;
+        top: -110px; 
+    }
+    .btn-pro .btn
+    {
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .btn-pro .btn
+    {
+        width: 100%;
+    }
+    .card-des
+    {
+        justify-content: center;
+    }
+    .card-des .card-content
+    {
+        max-width: 25rem;
+        height: 18rem;
+    }
+    .services
+    {
+        background: #A0D3EF;
+    }
+    .cat img
+    {
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: 15px;
+        left: 5px;
+    }
+    .ptf-text h1
+    {
+        font-size: 24px;
+        padding-top: 50px;
+        margin-top: 10%;
+        line-height: 1em;
+        font-weight: 800;
+        letter-spacing: 0.3%;
+        color: #737373;
+    }
+    .ptf-text h5
+    {
+        font-size: 30px;
+        padding-top: 0px;
+        line-height: 1em;
+        font-weight: 800;
+        letter-spacing: 0.3%;
+        color: #A0D3EF;
+    }
+    .ptf-text h6
+    {
+        font-size: 20px;
+        padding-top: 0px;
+        line-height: 1em;
+        font-weight: 800;
+        letter-spacing: 0.3%;
+        color: #737373;
+    }
+    .ptf-text span
+    {
+        font-size: 16px;
+        padding-top: 0px;
+        line-height: 1em;
+        font-weight: 400;
+        color: #737373;
+    }
+}
+@media only screen and (max-width: 576px)
+{
+    .svg-path
+    {
+        width: 100%;
+        height: 40px;
+        background: #A0D3EF;
+    } 
+    .svg-path p
+    {
+        font-size: 10px;
+    }
+    .service-text
+    {
+        font-size: 32px;
+        font-weight: 800;
+        position: relative;
+        top: -30px;
+    }
+    .service-paragraph
+    {
+        font-size: 16px;
+        font-weight: 500;
+        position: relative;
+        top: -40px;  
+    }
+    .header-text
+    {
+        font-weight: 600;
+        letter-spacing: 0.3%;
+        font-size: 24px;
+    }
+    .h2-mktg
+    {
+        text-align: center;
+        font-size: 32px;
+        line-height: 40px;
+        font-weight: 800;
+    }
+    .firstP
+    {
+        font-weight: 600;
+        letter-spacing: 0.3%;
+        line-height: 32px;
+        font-size: 16px;
+        text-align: center;
+    }
+    .btn-pro
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .btn-pro button
+    {
+        font-size: 16px;
+        font-weight: 800;
+    }
+    .btn-pro .btn
+    {
+        width: 75%;
+    }
+    .container .container-des
+    {
+    width: 250px;
+    height: 120px;
+    position: absolute;
+    content: '';
+    top: 13%;
+    left: 5%;
+    z-index: -1;
+    }
+    .services
+    {
+        background: #A0D3EF;
+    }
+    .card-des
+    {
+        justify-content: center;
+    }
+    .card-des .card-content
+    {
+        max-width: 25rem;
+        height: 15rem;
+    }
+    .cat img
+    {
+        width: 55px;
+        height: 55px;
+        position: relative;
+        top: 10px;
+        left: 5px;
+    }
+    .ptf-text h1
+    {
+        font-size: 24px;
+        padding-top: 50px;
+        margin-top: 10%;
+        line-height: 1em;
+        font-weight: 800;
+        letter-spacing: 0.3%;
+        color: #737373;
+    }
+    .ptf-text h5
+    {
+        font-size: 30px;
+        padding-top: 0px;
+        line-height: 1em;
+        font-weight: 800;
+        letter-spacing: 0.3%;
+        color: #A0D3EF;
+    }
+    .ptf-text h6
+    {
+        font-size: 20px;
+        padding-top: 0px;
+        line-height: 1em;
+        font-weight: 800;
+        letter-spacing: 0.3%;
+        color: #737373;
+    }
+    .ptf-text span
+    {
+        font-size: 16px;
+        padding-top: 0px;
+        line-height: 1em;
+        font-weight: 400;
+        color: #737373;
+    }
+}
+@media only screen and (min-width: 1000px)
+{
+    .svg-path
+    {
+        width: 100%;
+        height: 70px;
+        background: #A0D3EF;
+    } 
+    .firstP
+    {
+        font-weight: 600;
+        letter-spacing: 0.3%;
+        line-height: 30px;
+        font-size: 24px;
+        text-align: start;
+    }
+    .header-text
+    {
+        font-weight: 600;
+        letter-spacing: 0.3%;
+        font-size: 40px;
+    }
+    .h2-mktg
+    {
+        text-align: center;
+        font-size: 70px;
+        line-height: 1em;
+        font-weight: 800;
+        letter-spacing: 0.3%;
+    }
+    .service-text
+    {
+        font-size: 70px;
+        font-weight: 800;
+        letter-spacing: 0.3%;
+        position: relative;
+        top: -100px;
+    }
+    .service-paragraph
+    {
+        font-size: 32px;
+        font-weight: 500;
+        position: relative;
+        top: -110px; 
+    }
+    .btn-pro
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .btn-pro button
+    {
+        font-size: 24px;
+        font-weight: 800;
+    }
+    .btn-pro .btn
+    {
+        width: 100%;
+    }
+    .container .container-des
+    {
+    width: 450px;
+    height: 400px;
+    position: absolute;
+    content: '';
+    top: 15%;
+    left: 10%;
+    z-index: -1;
+    }
+    .card-des
+    {
+        justify-content: space-between;
+    }
+    .card-des .card-content
+    {
+        max-width: 30rem;
+        height: 20rem;
+    }
+    .cat img
+    {
+        width: 150px;
+        height: 150px;
+        position: relative;
+        top: 35px;
+        left: 10px;
+    }
+    .ptf-text
+    {
+        display:inline;
+        align-items: center;
+        justify-content: center;
+    }
+    .ptf-text h1
+    {
+        font-size: 40px;
+        padding-top: 50px;
+        margin-top: 10%;
+        line-height: 1em;
+        font-weight: 800;
+        letter-spacing: 0.3%;
+        color: #737373;
+    }
+    .ptf-text h5
+    {
+        font-size: 40px;
+        padding-top: 0px;
+        line-height: 1em;
+        font-weight: 800;
+        letter-spacing: 0.3%;
+        color: #A0D3EF;
+    }
+    .ptf-text h6
+    {
+        font-size: 30px;
+        padding-top: 0px;
+        line-height: 1em;
+        font-weight: 800;
+        letter-spacing: 0.3%;
+        color: #1a8cff;
+    }
+    .ptf-text span
+    {
+        font-size: 20px;
+        padding-top: 0px;
+        line-height: 1em;
+        font-weight: 400;
+        color: #737373;
+    }
+}
